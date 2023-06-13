@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+ul{
+    list-style-type: none;
+    float: right;
+    margin-top: 50px;
+    color: aliceblue;
+    font-size: 15px;
+    
+    
+}
+ul li{
+    display: inline-block;
+
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 35px;
+    border: 1px solid rgb(194, 76, 148);
+    transition: 0.06s ease;
+    
+    margin-bottom: 40%;
+    
+    
+    
+    
+    
+}
+ul li a:hover{
+    background-color: white;
+    color: #000;
+}
+.logo img{
+    float: left;
+    width: 200px;
+    height: 200px;
+    color: #fff;
+    padding: 5px 20px;
+    margin-top: -33px;
+    margin-left: -60px;
+}
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+.active{
+
+    background-color: transparent;
+    color: #751e1e;
+}
+
+
+
+
+
+#container{
+margin: 0;
+padding: 0;
+background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(marcela-laskoski-YrtFlrLo2DQ-unsplash.jpg);
+height: 100vh;
+width: 100vw;
+background-size: cover;
+background-position: center;}
+.name{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+h1{
+    color: rgb(167, 23, 124);
+    font-size: 120px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.box{
+    position: absolute;
+    top: 61%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px 30px;
+    color: rgb(234, 222, 236);
+    
+
+}
+p{
+    float: left;
+    margin-left: -63px;
+    color: #fff;
+    margin-top: 60px;
+    font-size: 15px;
+}
+strong{
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.insta{
+    color: #fff;
+    font-size: 40px;
+    transition: color 0.2s;
+    text-decoration: none;
+}
+.insta :hover{
+    color: rgb(221, 138, 189);
+}
+.fb{
+    color: #fff;
+    font-size: 40px;
+    transition: color 0.2s;
+    text-decoration: none;
+}
+
+.fb :hover{color: rgb(46, 21, 184);}
+
+.twitter{ color: #fff;
+    font-size: 40px;
+    transition: color 0.2s;
+text-decoration: none;}
+
+.twitter :hover{color: rgb(75, 115, 224);}
+
+.utube{ color: #fff;
+    font-size: 40px;
+    transition: color 0.2s;
+text-decoration: none;}
+
+.utube :hover{color: rgb(231, 12, 12);}
+
+.git{ color: #fff;
+    font-size: 40px;
+    transition: color 0.2s;
+text-decoration: none;}
+
+.git :hover{color: rgb(116, 114, 114);}
+
+    .media{
+
+        
+        border: 1px solid white;
+        height: 100vh;
+        width: 100vw;
+        padding-top: 380px;
+        
+        margin-right: 30px;
+        margin-left: 20px;
+        
+        
+        
+        display: flex;
+        justify-items: center;
+        justify-content: space-evenly;
+        border: transparent;
+        }
+.pause{
+    
+    float: right;
+    
+    display: flex;
+    
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    font-size: 45px;
+    margin-right: 100px;
+    margin-top: 20px;
+    color: rgb(246, 246, 247);
+    
+    
+}
+.c1{
+    border: 1px solid white;
+    margin: 10px;
+    border: transparent;
+}
+.c2{
+    border: 1px solid white;
+    margin: 10px;
+    border: transparent;
+    
+}
+
+
+.c3{
+    border: 1px solid white;
+margin: 10px;
+border: transparent;
+}
