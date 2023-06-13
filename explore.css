@@ -1,0 +1,218 @@
+/* 
+*{
+  margin: 0;
+  padding: 0;
+  }   */
+
+#bg{
+
+    background-image: url(images/marcela-laskoski-YrtFlrLo2DQ-unsplash.jpg);
+    background-size: 100%;
+    width: 100%;
+    height: 57vw;
+    /* overflow: hidden; */
+    
+}
+
+
+ul{
+  list-style-type: none;
+  float: right;
+  margin-top: 50px;
+  color: aliceblue;
+  font-size: 15px;
+  font-family: cursive;
+  margin-top: -15px;
+  
+}
+ul li{
+  display: inline-block;
+  font-family: cursive;
+  background-color: #751e1e;
+   /* margin-top: -200px;  */
+
+}
+ul li a{
+  text-decoration: none;
+  color: white;
+  padding: 10px 35px;
+  border: 1px solid rgb(194, 76, 148);
+  transition: 0.06s ease;
+  font-family: cursive;
+   /* margin-bottom: -200px;  */
+  /* background-color: #000; */
+}
+ul li a:hover{
+  background-color: white;
+  color: #000;
+}
+.logo img{
+  float: left;
+  width: 200px;
+  height: 200px;
+  color: #fff;
+  padding: 5px 20px;
+  margin-top: -40px;
+  margin-left: -60px;
+}
+.main{
+  max-width: 1200px;
+  margin: auto;
+  font-family: cursive;
+}
+.active{
+  background-color: transparent;
+  color: #751e1e;
+  font-family: cursive;
+}
+   p{
+   color:transparent;
+  font-family: cursive;
+  margin-top: -3px;
+}   
+
+.search{
+    border: 2px solid grey;
+    width: 500px;
+    height: 50px;
+    background-color: rgb(85, 82, 82);
+    float: left;
+    margin-left: 750px;
+    margin-top: -90px;
+
+}
+
+.search input[type=text] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    width: 370px;
+    margin-top: 5px;
+    margin-left: 5px;
+  }
+
+  .search button {
+    padding: 10px 20px;
+    background-color: #8b948b;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 410px;
+    margin-top: -35px;
+    float: left;
+
+  }
+
+  .search button:hover {
+    background-color: #54b659;
+  }
+ 
+  #tophits{
+    width: 300px;
+    height: 600px;
+
+  }
+
+  #head{
+    margin-left: 100px;
+    color: azure;
+    margin-top: 125px;
+
+  }
+  .playlist{
+     margin-left: 20px;
+margin-top: -18px;
+  }
+
+  #artist{
+    margin-left: 350px;
+    width: 900px;
+    height: 175px;
+    margin-top: -300px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    
+  }
+
+ 
+  .each{
+         width: 175px;
+         height: 175px;
+         border-radius: 50%;
+         overflow: hidden;
+         margin-top: 20px;
+           
+  }
+  .follow{
+            color:azure;
+            font-size: larger;
+            margin-top: 20px;
+        
+        
+  }
+  
+  .follow button{
+    padding: 10px 20px;
+    background-color: #8b948b;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .follow button:hover{
+    background-color: #54b659;
+
+  }
+  #likes{
+
+    margin-left: 350px;
+    width: 900px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    
+  }
+  #ahead{
+        width: max-content;
+         margin-top: -280px;
+         margin-left: 350px;
+         color:azure;
+         
+  }
+  
+  #recommended{
+    margin-left: 350px;
+    width: 900px;
+    height: 175px;
+    margin-top: -400px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+  }
+
+  .song{
+        width: 150px;  
+        height: 150px;
+  }
+
+h3{
+  margin-top: -2px;
+  color: azure;
+}
+h4{
+  margin-top: -20px;
+  color: azure;
+
+}
+#shead{
+  width: max-content;
+  margin-top: -230px;
+  margin-left: 350px;
+  color:azure;
+}
+
