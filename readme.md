@@ -1,1 +1,0 @@
-This project is for designing a website using html, css and flexbox
